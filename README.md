@@ -1,11 +1,14 @@
 ## Car - wash backend
+$$
 ---
 Backend- NodeJs
 Database - Mysql (https://freedb.tech/)
 Frontend - HTML, CSS
 ---
+$$
 
-User register : 
+**User register : **
+
 
 ```curl
 curl --location --request POST 'localhost:3000/users/register' \
@@ -18,7 +21,8 @@ curl --location --request POST 'localhost:3000/users/register' \
 }'
 ```
 
-User Login : 
+**User Login : **
+
 
 ```curl
 curl --location --request GET 'localhost:3000/users/login' \
@@ -39,7 +43,8 @@ curl --location --request GET 'localhost:3000/users/getUsers' \
 }'
 ```
 
-Car wash place register : 
+**Car wash place register : **
+
 
 ```curl
 curl --location --request POST 'localhost:3000/places/carwash-place' \
@@ -53,12 +58,15 @@ curl --location --request POST 'localhost:3000/places/carwash-place' \
 }'
 ```
 
-Search car wash place (by name )- 
+
+**Search car wash place (by name )- **
 ```curl
 curl --location --request GET 'localhost:3000/places/search-carwash?query=john'
 ```
 
-Slot booking : 
+
+**Slot booking : **
+
 
 ```curl
 curl --location --request POST 'localhost:3000/places/carwash-booking' \
