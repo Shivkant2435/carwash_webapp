@@ -1,0 +1,26 @@
+{
+  "name": "car-wash-backend",
+  "version": "1.0.0",
+  "description": "car wash backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "jwt",
+    "passport",
+    "express"
+  ],
+  "author": "Shivkant",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.2",
+    "mysql": "^2.14.1"
+  }
+}
